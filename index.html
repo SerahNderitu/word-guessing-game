@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Word Guess</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Word Guessing Game</h1>
+    <p>Guess the word:</p>
+    <div id="word-display"></div>
+    <p id="attempts">Attempts left: <span id="attempt-count">5</span></p>
+    <input type="text" id="guess-input" placeholder="Enter a letter">
+    <button onclick="guessLetter()">Submit Guess</button>
+    <div id="message"></div>
+  </div>
+
+  <script src="wordy.js"></script>
+</body>
+</html>
