@@ -1,0 +1,35 @@
+  <style>
+        body {
+          font-family: Arial, sans-serif;
+          text-align: center;
+          margin-top: 50px;
+        }
+
+        .container {
+          width: 50%;
+          margin: 0 auto;
+        }
+
+        #word-display {
+          font-size: 24px;
+          margin-bottom: 10px;
+        }
+
+        #attempts {
+          font-size: 18px;
+          margin-bottom: 10px;
+        }
+
+        #guess-input {
+          width: 100px;
+          padding: 5px;
+        }
+
+        #message {
+          font-size: 18px;
+          font-weight: bold;
+          color: darkorange;
+          margin-top: 10px;
+        }
+
+    </style>
